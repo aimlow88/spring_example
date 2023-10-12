@@ -18,31 +18,27 @@
 			<table class="table table-striped">
 				<tr>
 					<th>번호</th>
-					<td></td>
+					<td>${student.id}</td>
 				</tr>
 				<tr>
 					<th>이름</th>
-					<td></td>
-				</tr>
-				<tr>
-					<th>생년월일</th>
-					<td></td>
+					<td>${student.name}</td>
 				</tr>
 				<tr>
 					<th>이메일</th>
-					<td></td>
+					<td>${student.email}</td>
 				</tr>
 				<tr>
-					<th>자기소개</th>
-					<td></td>
+					<th>장래 희망</th>
+					<td>${student.dreamJob}</td>
 				</tr>
 				<tr>
 					<th>생성일</th>
-					<td></td>
+					<td>${student.createdAt}</td>
 				</tr>
 				<tr>
 					<th>수정일</th>
-					<td></td>
+					<td>${student.updatedAt}</td>
 				</tr>
 			</table>
 			

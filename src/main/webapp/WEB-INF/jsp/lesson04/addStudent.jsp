@@ -8,11 +8,11 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 		
 		<meta charset="UTF-8">
-		<title>회원 가입</title>
+		<title>학생 추가</title>
 	</head>
 	<body>
 		<div class="container">
-			<h1>회원가입</h1>
+			<h1>학생 추가</h1>
 			
 			<form method="post" action="/lesson04/ex02/add-student">
 				<div class="form-group">
@@ -32,7 +32,7 @@
 					<input type="text" id="dreamJob" name="dreamJob" class="form-control col-3">
 				</div>
 				
-				<input type="submit" class="btn btn-info" value="회원가입">
+				<input type="submit" class="btn btn-info" value="학생 추가">
 			</form>
 		</div>
 	</body>

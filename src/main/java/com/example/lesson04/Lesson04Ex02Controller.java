@@ -13,7 +13,7 @@ import com.example.lesson04.domain.Student;
 
 @RequestMapping("/lesson04/ex02")
 @Controller
-public class Lesson04Ex02Cintroller {
+public class Lesson04Ex02Controller {
 	
 	@Autowired
 	private StudentBO studentBO;

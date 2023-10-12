@@ -6,6 +6,6 @@ public interface StudentMapper {
 	
 	public void insertStudent(Student student);
 	
-	public Student insertStudentById(int id);
+	public Student selectStudentById(int id);
 
 }

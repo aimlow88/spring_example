@@ -19,7 +19,7 @@ public class StudentBO {
 	}
 	
 	public Student getStudentById(int id) {
-		return studentMapper.insertStudentById(id);
+		return studentMapper.selectStudentById(id);
 	}
 
 }

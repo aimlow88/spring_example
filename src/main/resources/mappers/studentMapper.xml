@@ -25,7 +25,7 @@
  		)
  	</insert>
  	
- 	<select id="insertStudentById" parameterType="int" resultType="com.example.lesson04.domain.Student">
+ 	<select id="selectStudentById" parameterType="int" resultType="com.example.lesson04.domain.Student">
  		SELECT
  			`id`
  			,`name`
@@ -34,6 +34,8 @@
 			,`dreamJob`
 			,`createdAt`
 			,`updatedAt`
+		FROM
+			`new_student`
 		WHERE
 			`id` = #{id}
  	</select>
