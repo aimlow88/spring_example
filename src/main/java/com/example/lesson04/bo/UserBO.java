@@ -6,11 +6,15 @@ import org.springframework.stereotype.Service;
 import com.example.lesson04.domain.User;
 import com.example.lesson04.mapper.UserMapper;
 
+import lombok.Data;
+
 @Service
 public class UserBO {
 	
 	@Autowired
 	private UserMapper userMapper;
+	
+	
 	
 	//input : 컬럼 4개
 	//output : X
@@ -24,5 +28,11 @@ public class UserBO {
 	public User getLatestUser() {
 		return userMapper.selectLatestUser();
 	}
+	
+	// input:name    output:boolesn(중복 : true)
+	public boolean existUserByName(String name) {
+		return userMapper.existUserByName(name);
+	}
+	
 
 }

@@ -35,6 +35,17 @@ dependencies {
 	implementation 'javax.servlet:jstl:1.2'  // springboot ver 2.x
 	// spring boot 3.X를 사용하면 첫번째 것과 아래 줄의 두줄을 셋팅한다.
 	// implementation group: 'org.glassfish.web', name: 'jakarta.servlet.jsp.jstl', version: '2.0.0' // springboot ver 3.x
+	
+	//lombok
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	
+	// JPA 라이브러리
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	
+	// 쿼리 결과 보기 위한 라이브러리
+	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.5.7'
+	
 }
 
 tasks.named('test') {
